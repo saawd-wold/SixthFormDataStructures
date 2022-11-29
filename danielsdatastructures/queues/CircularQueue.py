@@ -1,13 +1,13 @@
-import Queue
+from danielsdatastructures import Queue
 import numpy as np
 
 class CircularQueue(Queue):
-    def __init__(self, maxsize, dtype=np.int64):
+    def __init__(self, maxsize, type=np.int64):
         self.front = 0
         self.rear = -1
         self.size = 0
         self.maxsize = maxsize
-        self.array = np.empty(self.maxsize)
+        self.array = np.empty(self.maxsize, dtype=type)
 
     def isFull(self):
         return self.size == self.maxsize
@@ -18,9 +18,11 @@ class CircularQueue(Queue):
     def enqueue(self, item):
         self.rear = (self.rear+1) % self.maxsize
         self.array[self.rear] = item
+        self.size += 1
     
     def dequeue(self):
         x = self.array[self.front]
         self.front = (self.front+1) % self.maxsize
+        self.size -= 1
         return x
     
