@@ -1,8 +1,4 @@
 __path__ = ["danielsdatastructures", "danielsdatastructures/queues"]
 
-import os
-cwd = os.getcwd()
-import sys
-sys.path.append(cwd+"/queues")
-
-from danielsdatastructures.queues import Queue, CircularQueue 
+from danielsdatastructures.queues.Queue import Queue
+from danielsdatastructures.queues.CircularQueue import CircularQueue
