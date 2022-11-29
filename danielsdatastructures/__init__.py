@@ -1,2 +1,1 @@
-
-
+__path__ = ["danielsdatastructures", "danielsdatastructures/queues"]
