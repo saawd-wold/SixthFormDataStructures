@@ -1,2 +1,2 @@
-from queues import Queue, CircularQueue
+from danielsdatastructures.queues import Queue, CircularQueue
 
