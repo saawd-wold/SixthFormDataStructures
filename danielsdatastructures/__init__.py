@@ -1,2 +1,2 @@
-from queues import Queue
-from queues import CircularQueue
+from . import queues
+from . import queues
