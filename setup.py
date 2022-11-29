@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
 
+print("Packages found:", find_packages())
+
 setup(
     name="danielsdatastructures",
     version="0.0.13",
