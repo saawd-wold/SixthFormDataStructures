@@ -6,5 +6,5 @@ setup(
     description="A simple library of naively implemented data structures.",
     author="Daniel Sääw",
     author_email="saawd@woldinghamschool.co.uk",
-    packages=find_packages(),
+    packages=find_packages("danielsdatastructures"),
 )
