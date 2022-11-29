@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+from danielsdatastructures.queues import setup
 print("Packages found:", find_packages())
 
 setup(
