@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-def configuration(parent_package='',top_path=None):
+def configuration(parent_package='',top_path="SixthFormDataStructures"):
     from numpy.distutils.system_info import get_info
     lapack_opt = get_info("lapack_opt")
 
