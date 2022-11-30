@@ -5,7 +5,7 @@ print("Packages found:", find_packages())
 
 setup(
     name="danielsdatastructures",
-    version=__version__
+    version=__version__,
     description="A simple library of naively implemented data structures.",
     author="Daniel Sääw",
     author_email="saawd@woldinghamschool.co.uk",
