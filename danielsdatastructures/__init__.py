@@ -1,9 +1,10 @@
 from . import queues
-from . import queues
 
 submodules = ["Stacks"]
-__version__ = "0.2.5"
-__all__ = submodules + ["__version__"]
+__version__ = "0.2.6"
+__name__ = "danielsdatastructures"
+__author__ = "Daniel Sääw"
+__all__ = submodules + ["__version__", "__name__"]
 
 import importlib as _importlib
 
