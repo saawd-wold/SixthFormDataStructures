@@ -1,7 +1,7 @@
 from . import queues
 
 submodules = ["Stacks"]
-__version__ = "0.2.6"
+__version__ = "0.3.0"
 __name__ = "danielsdatastructures"
 __author__ = "Daniel Sääw"
 __all__ = submodules + ["__version__", "__name__"]
