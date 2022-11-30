@@ -3,11 +3,13 @@ x = 5
 from danielsdatastructures.Stacks import AbstractStack
 
 class Stack(AbstractStack):
-    def push(x):
+    def __init__(self, maxsize):
+        self.maxsize= maxsize
+        self.size = 0
+        self.list = []
+    def push(self, x):
         print(x)
-    def pop():
+    def pop(self):
         print("pop")
-    def isEmpty():
-        return True
-    def isFull():
+    def isEmpty(self):
         return True
