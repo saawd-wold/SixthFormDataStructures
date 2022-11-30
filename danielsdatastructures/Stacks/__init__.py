@@ -24,7 +24,9 @@ You may extend this class (implementing the four methods above) yourself.
     print(warnmsg)
 
 if not error:
-    test = lambda t : Exception(t[1]) if not t[0] else None
+    def thEx(e):
+        raise e
+    test = lambda t : thEx(Exception(t[1])) if not t[0] else None
     def initialemptiness(s):
         if s.isEmpty():
             return True, "Success"
