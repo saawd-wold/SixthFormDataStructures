@@ -10,7 +10,9 @@ class Stack(AbstractStack):
         print(x)
     def pop(self):
         self.size -= 1
-        print("pop")
+        hd, *tl = self.list
+        self.list = tl
+        return hd
     def isEmpty(self):
         return True
     def isFull(self):
