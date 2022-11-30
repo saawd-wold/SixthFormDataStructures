@@ -1,16 +1,7 @@
-from . import stacks
-from abc import ABC, abstractmethod
+from . import ADT
 
-class AbstractStack(ABC):
-    @abstractmethod
-    def push(self, item):
-        pass
-    def pop(self):
-        pass
-    def isEmpty(self):
-        pass
-    def isFull(self):
-        pass
-    pass
+AbstractStack = ADT.AbstractStack
+
+from . import stacks
 
 print("Stacks' x: ", stacks.x)
