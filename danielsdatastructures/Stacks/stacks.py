@@ -14,6 +14,6 @@ class Stack(AbstractStack):
         self.list = tl
         return hd
     def isEmpty(self):
-        return True
+        return self.size == 0
     def isFull(self):
         return self.size == self.maxsize
