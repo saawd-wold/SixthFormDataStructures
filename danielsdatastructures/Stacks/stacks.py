@@ -13,5 +13,5 @@ class Stack(AbstractStack):
         print("pop")
     def isEmpty(self):
         return True
-    def isFull():
+    def isFull(self):
         return False
