@@ -7,7 +7,7 @@ class Stack(AbstractStack):
         self.list = []
     def push(self, x):
         self.size += 1
-        print(x)
+        self.list.push(x)
     def pop(self):
         self.size -= 1
         hd, *tl = self.list
