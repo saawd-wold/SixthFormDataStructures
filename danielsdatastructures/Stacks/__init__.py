@@ -24,7 +24,7 @@ You may extend this class (implementing the four methods above) yourself.
     print(warnmsg)
 
 if not error:
-    test = lambda b, m : Exception(m) if not b else None
+    test = lambda t : Exception(t[1]) if not t[0] else None
     def initialemptiness(s):
         if s.isEmpty():
             return True, "Success"
