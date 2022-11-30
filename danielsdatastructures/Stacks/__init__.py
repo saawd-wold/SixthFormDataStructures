@@ -1,3 +1,3 @@
-import danielsdatastructures.Stacks.stacks as stacks
+from . import stacks
 
 print("Stacks' x: ", stacks.x)
