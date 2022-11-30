@@ -1,3 +1,3 @@
-from danielsdatastructures.Stacks.stacks import x
+import danielsdatastructures.Stacks.stacks as stacks
 
-print("Stacks' x: ", x)
+print("Stacks' x: ", stacks.x)
